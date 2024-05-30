@@ -1,0 +1,39 @@
+.reservation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1em;
+    box-shadow: .3em .3em .5em #0004;
+}
+.rate__comment {
+    color: blue;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.img__reservation {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+
+}
+.hr__reserve {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.inform__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.reservation__hotel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
